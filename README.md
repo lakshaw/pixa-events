@@ -6,7 +6,17 @@ PixaBeam Digital Services - Database Building/Management internship task
 ---
 
 ## Local Notes
-(Add any notes you had in your local README here)
+### Features
+
+- **List Upcoming Events**: View all upcoming events stored in the Supabase `Events` table.
+- **RSVP to Events**: Users can RSVP to any event (Yes/No/Maybe) by entering their `user_id` and `event_id`. All RSVPs are stored in the `RSVPs` table.
+- **Users Page**: View all registered users from the `Users` table (optional page for reference).
+
+### Tech Stack
+
+- **Frontend**: Next.js (React)
+- **Backend / Database**: Supabase
+- **Deployment**: Vercel
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
